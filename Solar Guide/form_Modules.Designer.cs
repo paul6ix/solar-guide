@@ -74,6 +74,7 @@
             this.button_pv_fund.TabIndex = 1;
             this.button_pv_fund.Text = "PV FUNDAMENTALS";
             this.button_pv_fund.UseVisualStyleBackColor = false;
+            this.button_pv_fund.Click += new System.EventHandler(this.button_pv_fund_Click);
             // 
             // button_pv_tech
             // 
@@ -92,6 +93,7 @@
             this.button_pv_tech.TabIndex = 2;
             this.button_pv_tech.Text = "PV TECHNOLOGY";
             this.button_pv_tech.UseVisualStyleBackColor = false;
+            this.button_pv_tech.Click += new System.EventHandler(this.button_pv_tech_Click);
             // 
             // button_pv_sys
             // 
@@ -110,6 +112,7 @@
             this.button_pv_sys.TabIndex = 3;
             this.button_pv_sys.Text = "PV SYSTEMS";
             this.button_pv_sys.UseVisualStyleBackColor = false;
+            this.button_pv_sys.Click += new System.EventHandler(this.button_pv_sys_Click);
             // 
             // button_other
             // 
@@ -128,6 +131,7 @@
             this.button_other.TabIndex = 4;
             this.button_other.Text = "OTHER METHODS OF SOLAR ENERGY";
             this.button_other.UseVisualStyleBackColor = false;
+            this.button_other.Click += new System.EventHandler(this.button_other_Click);
             // 
             // button_fr
             // 

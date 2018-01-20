@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Solar_Guide
 {
-    public partial class Form_intro : Form
+    public partial class Form_pvsystems : Form
     {
-        public Form_intro()
+        public Form_pvsystems()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form_dasboard mainForm = new Form_dasboard();
-            this.Hide();
-            mainForm.ShowDialog();
         }
 
         private void button_back_Click(object sender, EventArgs e)
@@ -29,7 +22,13 @@ namespace Solar_Guide
             form_Modules backForm = new form_Modules();
             this.Hide();
             backForm.ShowDialog();
+        }
 
+        private void button_dashboard_Click(object sender, EventArgs e)
+        {
+            Form_dasboard mainForm = new Form_dasboard();
+            this.Hide();
+            mainForm.ShowDialog();
         }
     }
 }

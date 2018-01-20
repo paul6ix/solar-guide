@@ -46,5 +46,33 @@ namespace Solar_Guide
             form_intro.Show();
             this.Hide();
         }
+
+        private void button_pv_fund_Click(object sender, EventArgs e)
+        {
+            Form form_pvfund = new Form_pvfund();
+            form_pvfund.Show();
+            this.Hide();
+        }
+
+        private void button_pv_tech_Click(object sender, EventArgs e)
+        {
+            Form form_pvtech = new Form_pvtech();
+            form_pvtech.Show();
+            this.Hide();
+        }
+
+        private void button_pv_sys_Click(object sender, EventArgs e)
+        {
+            Form form_pvsys = new Form_pvsystems();
+            form_pvsys.Show();
+            this.Hide();
+        }
+
+        private void button_other_Click(object sender, EventArgs e)
+        {
+            Form form_other = new Form_alternative();
+            form_other.Show();
+            this.Hide();
+        }
     }
 }

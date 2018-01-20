@@ -106,6 +106,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_alternative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_alternative.Designer.cs">
+      <DependentUpon>Form_alternative.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,24 @@
     <Compile Include="Form_login.Designer.cs">
       <DependentUpon>Form_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_pvfund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pvfund.Designer.cs">
+      <DependentUpon>Form_pvfund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pvsystems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pvsystems.Designer.cs">
+      <DependentUpon>Form_pvsystems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_pvtech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_pvtech.Designer.cs">
+      <DependentUpon>Form_pvtech.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +162,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_alternative.resx">
+      <DependentUpon>Form_alternative.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_dashboard.resx">
       <DependentUpon>Form_dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +173,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pvfund.resx">
+      <DependentUpon>Form_pvfund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pvsystems.resx">
+      <DependentUpon>Form_pvsystems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_pvtech.resx">
+      <DependentUpon>Form_pvtech.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Register.resx">
       <DependentUpon>Form_Register.cs</DependentUpon>
@@ -191,11 +227,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Solar-dark-energy-blur.png" />
+    <None Include="Resources\menu-2.png" />
+    <None Include="Resources\button-bar.png" />
     <Content Include="solar_guide_GRa_icon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -120,6 +120,7 @@
             this.MaximumSize = new System.Drawing.Size(1366, 768);
             this.MinimumSize = new System.Drawing.Size(800, 480);
             this.Name = "Form_dasboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Solar Guide Dashboard";
             this.ResumeLayout(false);
             this.PerformLayout();

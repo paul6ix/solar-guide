@@ -32,6 +32,8 @@
             this.button_energy = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button_back = new System.Windows.Forms.Button();
+            this.button_dashboard = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_energy
@@ -42,7 +44,7 @@
             this.button_energy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_energy.Font = new System.Drawing.Font("Helvetica World", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_energy.ForeColor = System.Drawing.Color.White;
-            this.button_energy.Image = ((System.Drawing.Image)(resources.GetObject("button_energy.Image")));
+            this.button_energy.Image = global::Solar_Guide.Properties.Resources.button_bar;
             this.button_energy.Location = new System.Drawing.Point(12, 56);
             this.button_energy.Name = "button_energy";
             this.button_energy.Size = new System.Drawing.Size(600, 60);
@@ -58,7 +60,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Helvetica World", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Image = global::Solar_Guide.Properties.Resources.button_bar;
             this.button1.Location = new System.Drawing.Point(12, 143);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(600, 60);
@@ -74,7 +76,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Helvetica World", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Image = global::Solar_Guide.Properties.Resources.button_bar;
             this.button2.Location = new System.Drawing.Point(12, 230);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(600, 60);
@@ -82,12 +84,46 @@
             this.button2.Text = "WORKING PRINCIPLE OF A SOLAR CELL";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // button_back
+            // 
+            this.button_back.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(10)))), ((int)(((byte)(89)))));
+            this.button_back.FlatAppearance.BorderSize = 0;
+            this.button_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_back.Font = new System.Drawing.Font("Helvetica World", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_back.ForeColor = System.Drawing.Color.White;
+            this.button_back.Image = ((System.Drawing.Image)(resources.GetObject("button_back.Image")));
+            this.button_back.Location = new System.Drawing.Point(38, 333);
+            this.button_back.Name = "button_back";
+            this.button_back.Size = new System.Drawing.Size(71, 45);
+            this.button_back.TabIndex = 3;
+            this.button_back.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button_back.UseVisualStyleBackColor = false;
+            this.button_back.Click += new System.EventHandler(this.button_back_Click);
+            // 
+            // button_dashboard
+            // 
+            this.button_dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(10)))), ((int)(((byte)(89)))));
+            this.button_dashboard.FlatAppearance.BorderSize = 0;
+            this.button_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_dashboard.Font = new System.Drawing.Font("Helvetica World", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_dashboard.ForeColor = System.Drawing.Color.White;
+            this.button_dashboard.Image = global::Solar_Guide.Properties.Resources.menu_2;
+            this.button_dashboard.Location = new System.Drawing.Point(515, 333);
+            this.button_dashboard.Name = "button_dashboard";
+            this.button_dashboard.Size = new System.Drawing.Size(71, 45);
+            this.button_dashboard.TabIndex = 4;
+            this.button_dashboard.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button_dashboard.UseVisualStyleBackColor = false;
+            this.button_dashboard.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form_intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(634, 661);
+            this.Controls.Add(this.button_dashboard);
+            this.Controls.Add(this.button_back);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_energy);
@@ -105,5 +141,7 @@
         private System.Windows.Forms.Button button_energy;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_back;
+        private System.Windows.Forms.Button button_dashboard;
     }
 }
