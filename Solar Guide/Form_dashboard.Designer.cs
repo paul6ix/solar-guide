@@ -122,6 +122,7 @@
             this.Name = "Form_dasboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Solar Guide Dashboard";
+            this.Load += new System.EventHandler(this.Form_dasboard_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

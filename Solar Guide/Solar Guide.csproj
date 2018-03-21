@@ -148,6 +148,12 @@
     <Compile Include="Form_pvtech.Designer.cs">
       <DependentUpon>Form_pvtech.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_quiz.Designer.cs">
+      <DependentUpon>Form_quiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_pvtech.resx">
       <DependentUpon>Form_pvtech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_quiz.resx">
+      <DependentUpon>Form_quiz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Register.resx">
       <DependentUpon>Form_Register.cs</DependentUpon>
