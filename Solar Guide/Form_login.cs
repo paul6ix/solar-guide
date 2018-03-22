@@ -19,10 +19,26 @@ namespace Solar_Guide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form formDashboard =new Form_dasboard();
-            formDashboard.Show();
-            this.Hide();
 
+            DialogResult msgResult;
+            msgResult = MessageBox.Show("Take Practice to determine your Level", "IMPORTANT!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+
+            if (msgResult == DialogResult.Yes)
+            {
+                Form formQuiz = new Form_quiz();
+                formQuiz.Show();
+                this.Hide();
+
+
+
+
+            }
+            else if (msgResult == DialogResult.No)
+            {
+                Form formDashboard = new Form_dasboard();
+                formDashboard.Show();
+                this.Hide();
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)

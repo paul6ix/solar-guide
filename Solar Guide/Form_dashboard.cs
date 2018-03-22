@@ -62,18 +62,8 @@ namespace Solar_Guide
 
         private void Form_dasboard_Load(object sender, EventArgs e)
         {
-            DialogResult msgResult;
-            msgResult =  MessageBox.Show("Take Practice to determine your Level","IMPORTANT!", MessageBoxButtons.YesNo,MessageBoxIcon.Exclamation);
+           
             
-            if(msgResult == DialogResult.Yes)
-            {
-                Form formQuiz = new Form_quiz();
-                formQuiz.Show();
-                this.Hide();
-            
-
-
-            }
 
 
    
