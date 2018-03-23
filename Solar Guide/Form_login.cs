@@ -25,8 +25,11 @@ namespace Solar_Guide
 
             if (msgResult == DialogResult.Yes)
             {
-                Form formQuiz = new Form_quiz();
-                formQuiz.Show();
+                //Form formQuiz = new Form_quiz();
+                //formQuiz.Show();
+                //this.Hide();
+                Form formTest = new Form_test();
+                formTest.Show();
                 this.Hide();
 
 

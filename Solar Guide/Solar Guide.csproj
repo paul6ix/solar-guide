@@ -148,12 +148,6 @@
     <Compile Include="Form_pvtech.Designer.cs">
       <DependentUpon>Form_pvtech.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_quiz.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_quiz.Designer.cs">
-      <DependentUpon>Form_quiz.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +159,12 @@
     </Compile>
     <Compile Include="form_Modules.Designer.cs">
       <DependentUpon>form_Modules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_text.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_text.Designer.cs">
+      <DependentUpon>Form_text.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -189,14 +189,14 @@
     <EmbeddedResource Include="Form_pvtech.resx">
       <DependentUpon>Form_pvtech.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_quiz.resx">
-      <DependentUpon>Form_quiz.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_Register.resx">
       <DependentUpon>Form_Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_Modules.resx">
       <DependentUpon>form_Modules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_text.resx">
+      <DependentUpon>Form_text.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
