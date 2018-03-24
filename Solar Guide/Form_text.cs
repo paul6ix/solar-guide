@@ -84,8 +84,13 @@ namespace Solar_Guide
 
 
             }
-            
-     
+            if (i == 10)
+            {
+                MessageBox.Show("Please select available module", "Test ended", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                button_End_test.Visible = false;
+                button_End_test.Enabled = true;
+            }
+
         }
        
 
@@ -95,7 +100,7 @@ namespace Solar_Guide
             {
                 score = score + 1;
               
-                textBox_score.Text = Convert.ToString(score+"0%");
+                label_score.Text = Convert.ToString(score+"0%");
                 button_End_test.Enabled = false;
                 button_End_test.Visible = false;
                 button_submit.Visible = true;
@@ -103,6 +108,7 @@ namespace Solar_Guide
                 button_submit.Text = "Next";
               if(score < 4)
                 {
+                    
                     button_module1.Enabled = true;
                     button_module2.Enabled = false;
                     button_module3.Enabled = false;
@@ -110,12 +116,14 @@ namespace Solar_Guide
                 }
              else if (score >4 && score < 7)
                 {
+                    
                     button_module1.Enabled = false;
                     button_module2.Enabled = true;
                     button_module3.Enabled = false;
                 }
                 else if (score > 7)
                 {
+                   
                     button_module1.Enabled = false;
                     button_module2.Enabled = false;
                     button_module3.Enabled = true;
@@ -145,6 +153,27 @@ namespace Solar_Guide
             if (radioButton_D.Checked)
                 return radioButton_D.Text.ToString();
             return "";
+        }
+
+        private void button_module1_Click(object sender, EventArgs e)
+        {
+            Form form_intro = new Form_intro();
+            form_intro.Show();
+            this.Hide();
+        }
+
+        private void button_module2_Click(object sender, EventArgs e)
+        {
+            Form form_pvfund = new Form_pvfund();
+            form_pvfund.Show();
+            this.Hide();
+        }
+
+        private void button_module3_Click(object sender, EventArgs e)
+        {
+            Form form_pvsys = new Form_pvsystems();
+            form_pvsys.Show();
+            this.Hide();
         }
     }
 }

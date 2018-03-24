@@ -66,7 +66,7 @@
             this.button_submit.ForeColor = System.Drawing.Color.White;
             this.button_submit.Location = new System.Drawing.Point(267, 210);
             this.button_submit.Name = "button_submit";
-            this.button_submit.Size = new System.Drawing.Size(91, 37);
+            this.button_submit.Size = new System.Drawing.Size(108, 37);
             this.button_submit.TabIndex = 1;
             this.button_submit.Text = "Start";
             this.button_submit.UseVisualStyleBackColor = false;
@@ -155,37 +155,61 @@
             // 
             // button_module3
             // 
-            this.button_module3.Location = new System.Drawing.Point(451, 282);
+            this.button_module3.BackColor = System.Drawing.Color.Transparent;
+            this.button_module3.BackgroundImage = global::Solar_Guide.Properties.Resources.button_bar;
+            this.button_module3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_module3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_module3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_module3.ForeColor = System.Drawing.Color.White;
+            this.button_module3.Location = new System.Drawing.Point(451, 287);
             this.button_module3.Name = "button_module3";
-            this.button_module3.Size = new System.Drawing.Size(75, 23);
+            this.button_module3.Size = new System.Drawing.Size(111, 34);
             this.button_module3.TabIndex = 8;
             this.button_module3.Text = "Module 3";
-            this.button_module3.UseVisualStyleBackColor = true;
+            this.button_module3.UseVisualStyleBackColor = false;
+            this.button_module3.Click += new System.EventHandler(this.button_module3_Click);
             // 
             // button_module1
             // 
-            this.button_module1.Location = new System.Drawing.Point(450, 219);
+            this.button_module1.BackColor = System.Drawing.Color.Transparent;
+            this.button_module1.BackgroundImage = global::Solar_Guide.Properties.Resources.button_bar;
+            this.button_module1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_module1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_module1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_module1.ForeColor = System.Drawing.Color.White;
+            this.button_module1.Location = new System.Drawing.Point(450, 210);
             this.button_module1.Name = "button_module1";
-            this.button_module1.Size = new System.Drawing.Size(75, 23);
+            this.button_module1.Size = new System.Drawing.Size(112, 37);
             this.button_module1.TabIndex = 9;
             this.button_module1.Text = "Module 1";
-            this.button_module1.UseVisualStyleBackColor = true;
+            this.button_module1.UseVisualStyleBackColor = false;
+            this.button_module1.Click += new System.EventHandler(this.button_module1_Click);
             // 
             // button_module2
             // 
+            this.button_module2.BackColor = System.Drawing.Color.Transparent;
+            this.button_module2.BackgroundImage = global::Solar_Guide.Properties.Resources.button_bar;
+            this.button_module2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_module2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_module2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_module2.ForeColor = System.Drawing.Color.White;
             this.button_module2.Location = new System.Drawing.Point(451, 253);
             this.button_module2.Name = "button_module2";
-            this.button_module2.Size = new System.Drawing.Size(75, 23);
+            this.button_module2.Size = new System.Drawing.Size(111, 32);
             this.button_module2.TabIndex = 10;
             this.button_module2.Text = "Module 2";
-            this.button_module2.UseVisualStyleBackColor = true;
+            this.button_module2.UseVisualStyleBackColor = false;
+            this.button_module2.Click += new System.EventHandler(this.button_module2_Click);
             // 
             // label_score
             // 
             this.label_score.AutoSize = true;
-            this.label_score.Location = new System.Drawing.Point(197, 287);
+            this.label_score.BackColor = System.Drawing.Color.Transparent;
+            this.label_score.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_score.Location = new System.Drawing.Point(489, 9);
             this.label_score.Name = "label_score";
-            this.label_score.Size = new System.Drawing.Size(35, 13);
+            this.label_score.Size = new System.Drawing.Size(73, 25);
             this.label_score.TabIndex = 11;
             this.label_score.Text = "Score";
             // 
