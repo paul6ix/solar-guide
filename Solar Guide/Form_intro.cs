@@ -146,6 +146,8 @@ namespace Solar_Guide
                 return radioButton_D.Text.ToString();
             return "";
         }
+
+      
     }
 
 }

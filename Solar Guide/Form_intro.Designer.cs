@@ -176,7 +176,7 @@
             this.button_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_submit.ForeColor = System.Drawing.Color.White;
-            this.button_submit.Location = new System.Drawing.Point(283, 210);
+            this.button_submit.Location = new System.Drawing.Point(380, 209);
             this.button_submit.Name = "button_submit";
             this.button_submit.Size = new System.Drawing.Size(108, 37);
             this.button_submit.TabIndex = 26;
@@ -217,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 661);
+            this.ClientSize = new System.Drawing.Size(714, 661);
             this.Controls.Add(this.button_Submit_all);
             this.Controls.Add(this.label_score);
             this.Controls.Add(this.button_End_test);
