@@ -45,8 +45,8 @@ namespace Solar_Guide
 
         private void button_reading_Click(object sender, EventArgs e)
         {
-            Form formModule = new form_Modules();
-            formModule.Show();
+            Form formReading = new Form_reading();
+            formReading.Show();
             this.Hide();
 
         }
