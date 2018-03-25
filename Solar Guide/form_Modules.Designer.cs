@@ -46,14 +46,14 @@
             this.button_intro.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_intro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_intro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_intro.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_intro.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_intro.ForeColor = System.Drawing.Color.White;
             this.button_intro.Image = ((System.Drawing.Image)(resources.GetObject("button_intro.Image")));
             this.button_intro.Location = new System.Drawing.Point(12, 33);
             this.button_intro.Name = "button_intro";
             this.button_intro.Size = new System.Drawing.Size(600, 60);
             this.button_intro.TabIndex = 0;
-            this.button_intro.Text = "INTRODUCTION";
+            this.button_intro.Text = "MODULE ONE";
             this.button_intro.UseVisualStyleBackColor = false;
             this.button_intro.Click += new System.EventHandler(this.button_intro_Click);
             // 
@@ -65,14 +65,14 @@
             this.button_pv_fund.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_pv_fund.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_pv_fund.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_pv_fund.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_pv_fund.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_pv_fund.ForeColor = System.Drawing.Color.White;
             this.button_pv_fund.Image = ((System.Drawing.Image)(resources.GetObject("button_pv_fund.Image")));
             this.button_pv_fund.Location = new System.Drawing.Point(12, 117);
             this.button_pv_fund.Name = "button_pv_fund";
             this.button_pv_fund.Size = new System.Drawing.Size(600, 60);
             this.button_pv_fund.TabIndex = 1;
-            this.button_pv_fund.Text = "PV FUNDAMENTALS";
+            this.button_pv_fund.Text = "MODULE TWO";
             this.button_pv_fund.UseVisualStyleBackColor = false;
             this.button_pv_fund.Click += new System.EventHandler(this.button_pv_fund_Click);
             // 
@@ -84,14 +84,14 @@
             this.button_pv_tech.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_pv_tech.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_pv_tech.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_pv_tech.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_pv_tech.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_pv_tech.ForeColor = System.Drawing.Color.White;
             this.button_pv_tech.Image = ((System.Drawing.Image)(resources.GetObject("button_pv_tech.Image")));
             this.button_pv_tech.Location = new System.Drawing.Point(12, 209);
             this.button_pv_tech.Name = "button_pv_tech";
             this.button_pv_tech.Size = new System.Drawing.Size(600, 60);
             this.button_pv_tech.TabIndex = 2;
-            this.button_pv_tech.Text = "PV TECHNOLOGY";
+            this.button_pv_tech.Text = "MODULE THREE";
             this.button_pv_tech.UseVisualStyleBackColor = false;
             this.button_pv_tech.Click += new System.EventHandler(this.button_pv_tech_Click);
             // 
@@ -103,7 +103,7 @@
             this.button_pv_sys.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_pv_sys.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_pv_sys.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_pv_sys.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_pv_sys.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_pv_sys.ForeColor = System.Drawing.Color.White;
             this.button_pv_sys.Image = ((System.Drawing.Image)(resources.GetObject("button_pv_sys.Image")));
             this.button_pv_sys.Location = new System.Drawing.Point(12, 303);
@@ -122,7 +122,7 @@
             this.button_other.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_other.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_other.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_other.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_other.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_other.ForeColor = System.Drawing.Color.White;
             this.button_other.Image = ((System.Drawing.Image)(resources.GetObject("button_other.Image")));
             this.button_other.Location = new System.Drawing.Point(12, 395);
@@ -141,7 +141,7 @@
             this.button_fr.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button_fr.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(37)))), ((int)(((byte)(69)))));
             this.button_fr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_fr.Font = new System.Drawing.Font("Helvetica World", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_fr.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_fr.ForeColor = System.Drawing.Color.White;
             this.button_fr.Image = ((System.Drawing.Image)(resources.GetObject("button_fr.Image")));
             this.button_fr.Location = new System.Drawing.Point(12, 491);

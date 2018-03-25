@@ -157,21 +157,21 @@ namespace Solar_Guide
 
         private void button_module1_Click(object sender, EventArgs e)
         {
-            Form form_intro = new Form_intro();
+            Form form_intro = new Form_Module1();
             form_intro.Show();
             this.Hide();
         }
 
         private void button_module2_Click(object sender, EventArgs e)
         {
-            Form form_pvfund = new Form_pvfund();
+            Form form_pvfund = new Form_Module2();
             form_pvfund.Show();
             this.Hide();
         }
 
         private void button_module3_Click(object sender, EventArgs e)
         {
-            Form form_pvsys = new Form_pvsystems();
+            Form form_pvsys = new Form_module3();
             form_pvsys.Show();
             this.Hide();
         }

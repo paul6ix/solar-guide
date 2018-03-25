@@ -118,11 +118,11 @@
     <Compile Include="Form_dashboard.Designer.cs">
       <DependentUpon>Form_dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_intro.cs">
+    <Compile Include="Form_module1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_intro.Designer.cs">
-      <DependentUpon>Form_intro.cs</DependentUpon>
+    <Compile Include="Form_module1.Designer.cs">
+      <DependentUpon>Form_module1.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_login.cs">
       <SubType>Form</SubType>
@@ -130,17 +130,17 @@
     <Compile Include="Form_login.Designer.cs">
       <DependentUpon>Form_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_pvfund.cs">
+    <Compile Include="Form_module2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_pvfund.Designer.cs">
-      <DependentUpon>Form_pvfund.cs</DependentUpon>
+    <Compile Include="Form_module2.Designer.cs">
+      <DependentUpon>Form_module2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_pvsystems.cs">
+    <Compile Include="Form_module3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_pvsystems.Designer.cs">
-      <DependentUpon>Form_pvsystems.cs</DependentUpon>
+    <Compile Include="Form_module3.Designer.cs">
+      <DependentUpon>Form_module3.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_pvtech.cs">
       <SubType>Form</SubType>
@@ -174,17 +174,17 @@
     <EmbeddedResource Include="Form_dashboard.resx">
       <DependentUpon>Form_dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_intro.resx">
-      <DependentUpon>Form_intro.cs</DependentUpon>
+    <EmbeddedResource Include="Form_module1.resx">
+      <DependentUpon>Form_module1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_pvfund.resx">
-      <DependentUpon>Form_pvfund.cs</DependentUpon>
+    <EmbeddedResource Include="Form_module2.resx">
+      <DependentUpon>Form_module2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_pvsystems.resx">
-      <DependentUpon>Form_pvsystems.cs</DependentUpon>
+    <EmbeddedResource Include="Form_module3.resx">
+      <DependentUpon>Form_module3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_pvtech.resx">
       <DependentUpon>Form_pvtech.cs</DependentUpon>

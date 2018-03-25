@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Solar_Guide
 {
-    public partial class Form_intro : Form
+    public partial class Form_Module1 : Form
     {
         int score = 0;
         int i = -1;
@@ -37,14 +37,15 @@ namespace Solar_Guide
           "Sound energy","Solar energy", "Kinetic energy", "Chemical energy",
           "Chemical energy to electrical energy","Solar radiation into electrical energy","Solar radiation into thermal energy","Thermal energy into electrical energy",
           "It is expensive"," It is not very effective at night"," It is not very reliable"," All of the above",
+          "2.5 kW/m2","1.0 kW/m2","500 W/m2","200 W/m2",
             "END OF QUESTION", "END OF QUESTION", "END OF QUESTION", "END OF QUESTION"
 
         };
 
         string[] quizAnswers = new string[] { "reduces pollution", "None of the above", " False", "Hot arid zones",
-            "It is the radiant light and heat from the sun","By converting electrons to photons","Solar energy","Solar radiation into electrical energy","All of the above","Series and parallel arrangement of solar cells", "END OF QUESTION"
+            "It is the radiant light and heat from the sun","By converting electrons to photons","Solar energy","Solar radiation into electrical energy","All of the above","1.0 kW/m2", "END OF QUESTION"
         };
-        public Form_intro()
+        public Form_Module1()
         {
             InitializeComponent();
         }
@@ -104,7 +105,7 @@ namespace Solar_Guide
                 button_Submit_all.Visible = true;
                 button_Submit_all.Enabled = true;
                 button_End_test.Visible = false;
-                button_End_test.Enabled = true;
+                button_End_test.Enabled = false;
             }
 
 

@@ -1,6 +1,6 @@
 ﻿namespace Solar_Guide
 {
-    partial class Form_intro
+    partial class Form_Module1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_intro));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Module1));
             this.button_dashboard = new System.Windows.Forms.Button();
             this.button_back = new System.Windows.Forms.Button();
             this.label_score = new System.Windows.Forms.Label();
@@ -213,7 +213,7 @@
             this.button_Submit_all.Text = "Submit All";
             this.button_Submit_all.UseVisualStyleBackColor = false;
             // 
-            // Form_intro
+            // Form_Module1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,9 +231,9 @@
             this.Controls.Add(this.button_back);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form_intro";
+            this.Name = "Form_Module1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "INTRODUCTION";
+            this.Text = "MODULE ONE";
             this.Load += new System.EventHandler(this.Form_intro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
