@@ -37,7 +37,7 @@ namespace Solar_Guide
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form formModule = new form_Modules();
+            Form formModule = new form_beginner();
             formModule.Show();
             this.Hide();
 
@@ -45,7 +45,7 @@ namespace Solar_Guide
 
         private void button_reading_Click(object sender, EventArgs e)
         {
-            Form formReading = new Form_reading();
+            Form formReading = new Form_expert();
             formReading.Show();
             this.Hide();
 
@@ -53,7 +53,7 @@ namespace Solar_Guide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form formModule = new form_Modules();
+            Form formModule = new form_beginner();
             formModule.Show();
             this.Hide();
         }

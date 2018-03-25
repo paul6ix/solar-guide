@@ -61,7 +61,7 @@ namespace Solar_Guide
 
         private void button_back_Click_1(object sender, EventArgs e)
         {
-            form_Modules backForm = new form_Modules();
+            form_beginner backForm = new form_beginner();
             this.Hide();
             backForm.ShowDialog();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Solar_Guide
 {
-    public partial class Form_intermediate : Form
+    public partial class Form_expert : Form
     {
-        public Form_intermediate()
+        public Form_expert()
         {
             InitializeComponent();
         }
@@ -24,27 +24,33 @@ namespace Solar_Guide
             backForm.ShowDialog();
         }
 
-        private void button_dashboard_Click(object sender, EventArgs e)
+        
+
+       
+
+        private void Form_reading_Load(object sender, EventArgs e)
         {
-            Form_dasboard mainForm = new Form_dasboard();
-            this.Hide();
-            mainForm.ShowDialog();
+            string folderName = @"c:\\";
+            string pathString = System.IO.Path.Combine(folderName, "temp");
+            System.IO.Directory.CreateDirectory(pathString);
         }
+
+       
 
         private void button_reading_Click(object sender, EventArgs e)
         {
             string folderName = @"c:\\";
             string pathString = System.IO.Path.Combine(folderName, "temp");
             System.IO.Directory.CreateDirectory(pathString);
-            String openPDFFile = "C:\\temp\\module2.pdf";
-            System.IO.File.WriteAllBytes(openPDFFile, global::Solar_Guide.Properties.Resources.module2);
+            String openPDFFile = "C:\\temp\\module3.pdf";
+            System.IO.File.WriteAllBytes(openPDFFile, global::Solar_Guide.Properties.Resources.module3);
             System.Diagnostics.Process.Start(openPDFFile);
         }
 
         private void button_taketest_Click(object sender, EventArgs e)
         {
-            Form formModule = new Form_Module2();
-            formModule.Show();
+            Form formModule3 = new Form_module3();
+            formModule3.Show();
             this.Hide();
         }
     }

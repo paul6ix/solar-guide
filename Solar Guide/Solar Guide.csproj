@@ -106,11 +106,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form_reading.cs">
+    <Compile Include="Form_expert.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_reading.Designer.cs">
-      <DependentUpon>Form_reading.cs</DependentUpon>
+    <Compile Include="Form_expert.Designer.cs">
+      <DependentUpon>Form_expert.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_dashboard.cs">
       <SubType>Form</SubType>
@@ -154,11 +154,11 @@
     <Compile Include="Form_Register.Designer.cs">
       <DependentUpon>Form_Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_Modules.cs">
+    <Compile Include="form_beginner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_Modules.Designer.cs">
-      <DependentUpon>form_Modules.cs</DependentUpon>
+    <Compile Include="form_beginner.Designer.cs">
+      <DependentUpon>form_beginner.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_text.cs">
       <SubType>Form</SubType>
@@ -168,13 +168,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource_module1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resource_module1.resx</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Form_reading.resx">
-      <DependentUpon>Form_reading.cs</DependentUpon>
+    <EmbeddedResource Include="Form_expert.resx">
+      <DependentUpon>Form_expert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_dashboard.resx">
       <DependentUpon>Form_dashboard.cs</DependentUpon>
@@ -197,32 +192,27 @@
     <EmbeddedResource Include="Form_Register.resx">
       <DependentUpon>Form_Register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_Modules.resx">
-      <DependentUpon>form_Modules.cs</DependentUpon>
+    <EmbeddedResource Include="form_beginner.resx">
+      <DependentUpon>form_beginner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_text.resx">
       <DependentUpon>Form_text.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <EmbeddedResource Include="Resource_module1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource_module1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -250,8 +240,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Solar-dark-energy-blur.png" />
-    <None Include="Resources\menu-2.png" />
     <None Include="Resources\button-bar.png" />
+    <None Include="Resources\Solar-dark-energy.png" />
+    <None Include="Resources\menu-2.png" />
+    <None Include="Resources\tab1.png" />
+    <None Include="Resources\tab2.png" />
     <Content Include="solar_guide_GRa_icon.ico" />
   </ItemGroup>
   <ItemGroup />
