@@ -38,9 +38,9 @@ namespace Solar_Guide
             }
             else if (msgResult == DialogResult.No)
             {
-                Form formDashboard = new Form_dasboard();
-                formDashboard.Show();
-                this.Hide();
+                //Form formDashboard = new Form_dasboard();
+                //formDashboard.Show();
+                //this.Hide();
             }
         }
 

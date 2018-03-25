@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Module1));
-            this.button_dashboard = new System.Windows.Forms.Button();
             this.button_back = new System.Windows.Forms.Button();
             this.label_score = new System.Windows.Forms.Label();
             this.button_End_test = new System.Windows.Forms.Button();
@@ -41,22 +40,6 @@
             this.label_questions = new System.Windows.Forms.Label();
             this.button_Submit_all = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button_dashboard
-            // 
-            this.button_dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(10)))), ((int)(((byte)(89)))));
-            this.button_dashboard.FlatAppearance.BorderSize = 0;
-            this.button_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_dashboard.ForeColor = System.Drawing.Color.White;
-            this.button_dashboard.Image = global::Solar_Guide.Properties.Resources.menu_2;
-            this.button_dashboard.Location = new System.Drawing.Point(518, 374);
-            this.button_dashboard.Name = "button_dashboard";
-            this.button_dashboard.Size = new System.Drawing.Size(71, 45);
-            this.button_dashboard.TabIndex = 24;
-            this.button_dashboard.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button_dashboard.UseVisualStyleBackColor = false;
-            this.button_dashboard.Click += new System.EventHandler(this.button_dashboard_Click);
             // 
             // button_back
             // 
@@ -227,7 +210,6 @@
             this.Controls.Add(this.radioButton_A);
             this.Controls.Add(this.button_submit);
             this.Controls.Add(this.label_questions);
-            this.Controls.Add(this.button_dashboard);
             this.Controls.Add(this.button_back);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -241,8 +223,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button_dashboard;
         private System.Windows.Forms.Button button_back;
         private System.Windows.Forms.Label label_score;
         private System.Windows.Forms.Button button_End_test;
